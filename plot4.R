@@ -39,7 +39,7 @@ plot(ds$datetime, ds$Sub_metering_1, xlab="", ylab="Energy sub metering", type="
 lines(ds$datetime, ds$Sub_metering_1, type="l")
 lines(ds$datetime, ds$Sub_metering_2, type="l", col="red")
 lines(ds$datetime, ds$Sub_metering_3, type="l", col="blue")
-legend("topright", lwd=3, cex=0.75,
+legend("topright", lwd=1, cex=0.7,
 	   col=c("black","red","blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ## 4- Plot
